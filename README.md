@@ -1,41 +1,44 @@
 # 📊 Sales Data Analysis using Python
 
-![Project Cover](Images/Project_Cover.png)
-
-> **A complete Exploratory Data Analysis (EDA) project using Python to analyze retail sales data, identify customer purchasing patterns, and generate meaningful business insights through data visualization.**
+> **Exploratory Data Analysis (EDA) project built using Python to analyze retail sales data, identify customer purchasing patterns, and generate meaningful business insights through data visualization.**
 
 ---
 
 # 📌 Project Overview
 
-This project focuses on analyzing a retail sales dataset using Python and Jupyter Notebook. The dataset contains customer demographics, product information, order details, and sales amounts. The project demonstrates the complete EDA workflow including data cleaning, exploration, visualization, and business insight generation.
+This project demonstrates a complete Exploratory Data Analysis (EDA) workflow using Python and Jupyter Notebook. The dataset contains customer demographics, product details, order information, and sales amounts. The analysis focuses on identifying customer behavior, sales trends, top-performing states, product categories, and business insights using effective data visualization techniques.
 
 ---
 
 # 🎯 Objectives
 
-- Import and analyze the sales dataset
-- Perform data cleaning and preprocessing
-- Explore customer demographics
-- Identify sales trends and purchasing behavior
-- Generate business insights using visualizations
+- Import and explore the sales dataset
+- Clean and preprocess the data
+- Analyze customer demographics
+- Identify purchasing patterns
+- Compare sales across states
+- Analyze product category performance
+- Create meaningful visualizations
+- Generate business insights
 
 ---
 
 # 🛠️ Tech Stack
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+| Tool | Purpose |
+|------|---------|
+| Python | Data Analysis |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Computing |
+| Matplotlib | Data Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development Environment |
 
 ---
 
 # 📂 Dataset Features
 
-The dataset contains the following columns:
+The dataset includes the following fields:
 
 - User ID
 - Customer Name
@@ -55,21 +58,21 @@ The dataset contains the following columns:
 
 # 📈 Exploratory Data Analysis (EDA)
 
-The following analyses were performed:
+The project includes:
 
 - ✅ Data Import
 - ✅ Data Cleaning
 - ✅ Dataset Information
 - ✅ Missing Value Analysis
-- ✅ Gender-wise Transaction Count
-- ✅ Gender Distribution (Pie Chart)
-- ✅ Gender-wise Total Sales
+- ✅ Gender-wise Transaction Analysis
+- ✅ Gender Distribution Analysis
+- ✅ Gender-wise Sales Analysis
 - ✅ Age Group-wise Transaction Analysis
 - ✅ Age Group-wise Sales Analysis
 - ✅ Top 5 States by Quantity Ordered
 - ✅ Top 5 States by Total Sales
-- ✅ Product Category-wise Transactions
-- ✅ Product Category-wise Sales
+- ✅ Product Category-wise Transaction Analysis
+- ✅ Product Category-wise Sales Analysis
 - ✅ Product Category vs Gender Analysis
 - ✅ Profession-wise Transaction Analysis
 - ✅ Top Professions by Sales Amount
@@ -79,32 +82,68 @@ The following analyses were performed:
 
 # 📊 Project Preview
 
-### Gender Distribution
+## Dataset Preview
 
-![Gender Distribution](Images/05_Gender_Distribution_PieChart.png)
-
----
-
-### Top 5 States by Sales
-
-![Top States](Images/10_Top5_States_Sales_BarChart.png)
+![Dataset Preview](Images/01_Dataset_Preview.PNG)
 
 ---
 
-### Product Category Analysis
+## Gender Distribution
 
-![Product Category](Images/12_Product_Category_Sales_BarChart.png)
+![Gender Distribution](Images/05_Gender_Distribution_PieChart.PNG)
+
+---
+
+## Gender-wise Sales
+
+![Gender Sales](Images/06_Gender_Sales_BarChart.PNG)
+
+---
+
+## Age Group Analysis
+
+![Age Group](Images/08_Age_Group_Sales_BarChart.PNG)
+
+---
+
+## Top 5 States by Sales
+
+![Top States](Images/10_Top5_States_Sales_BarChart.PNG)
+
+---
+
+## Product Category Analysis
+
+![Product Category](Images/12_Product_Category_Sales_BarChart.PNG)
+
+---
+
+## Product Category vs Gender
+
+![Category vs Gender](Images/13_Product_Category_Gender_BarChart.PNG)
+
+---
+
+## Top Professions by Sales
+
+![Profession](Images/15_Top_Profession_Sales_BarChart.PNG)
+
+---
+
+## Top 10 Products by Quantity
+
+![Top Products](Images/16_Top10_Products_Quantity_BarChart.PNG)
 
 ---
 
 # 🚀 Key Insights
 
-- Female customers contributed significantly to total sales.
+- Female customers contributed significantly to overall sales.
 - The 26–35 age group generated the highest number of purchases.
 - Sales were concentrated in a few top-performing states.
-- Product categories showed different purchasing trends across genders.
+- Product categories showed different purchasing behavior across genders.
 - Certain professions contributed more to overall sales than others.
-- A small number of products accounted for a large share of total orders.
+- A small number of products generated a significant share of total orders.
 
 ---
 
@@ -117,12 +156,22 @@ Python-Sales-Data-Analysis-EDA/
 │   └── Sales_Data.csv
 │
 ├── Images/
-│   ├── Project_Cover.png
-│   ├── 01_Dataset_Preview.png
-│   ├── 02_Data_Info.png
-│   ├── 03_Missing_Values_Check.png
-│   ├── ...
-│   └── 16_Top10_Products_Quantity_BarChart.png
+│   ├── 01_Dataset_Preview.PNG
+│   ├── 02_Data_Info.PNG
+│   ├── 03_Missing_Values_Check.PNG
+│   ├── 04_Gender_Transactions_BarChart.PNG
+│   ├── 05_Gender_Distribution_PieChart.PNG
+│   ├── 06_Gender_Sales_BarChart.PNG
+│   ├── 07_Age_Group_Transaction_BarChart.PNG
+│   ├── 08_Age_Group_Sales_BarChart.PNG
+│   ├── 09_Top5_States_Quantity_BarChart.PNG
+│   ├── 10_Top5_States_Sales_BarChart.PNG
+│   ├── 11_Product_Category_Transaction_BarChart.PNG
+│   ├── 12_Product_Category_Sales_BarChart.PNG
+│   ├── 13_Product_Category_Gender_BarChart.PNG
+│   ├── 14_Profession_Transaction_BarChart.PNG
+│   ├── 15_Top_Profession_Sales_BarChart.PNG
+│   └── 16_Top10_Products_Quantity_BarChart.PNG
 │
 ├── Notebook/
 │   └── Analysis_on_sales_data_project.ipynb
@@ -168,6 +217,19 @@ import seaborn as sns
 
 ---
 
+# 💡 Learning Outcomes
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Business Insight Generation
+- Data Visualization
+- Customer Behaviour Analysis
+- Sales Trend Analysis
+- Python for Data Analytics
+- GitHub Project Documentation
+
+---
+
 # 📄 License
 
 This project is licensed under the **MIT License**.
@@ -178,11 +240,22 @@ This project is licensed under the **MIT License**.
 
 **Mayur Rajput**
 
-**B.Pharm + MBA (Integrated)**  
-**NMIMS University**
+🎓 B.Pharm + MBA (Integrated)  
+🏫 NMIMS University
 
-📧 Connect with me on LinkedIn for collaboration and professional networking.
+### Technical Skills
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Jupyter Notebook
+- Git & GitHub
 
 ---
 
-⭐ **If you found this project helpful, please consider giving it a Star!**
+## ⭐ If you found this project useful, please consider giving it a Star.
